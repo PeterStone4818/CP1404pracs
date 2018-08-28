@@ -1,6 +1,6 @@
 """
 Peter Stone. jc389014, 28/08/2018. This programm manages a simple csv list file of books, both read and unread for
-a user. GitHub:
+a user. GitHub: https://github.com/PeterStone4818/CP1404pracs/tree/master/a_1
 """
 import csv
 
