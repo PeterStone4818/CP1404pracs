@@ -10,7 +10,7 @@ MENU_CHOICES = ['L', 'A', 'C', 'Q']
 def main():
     book_list = file_read()
     menu_choice = 'L'
-    print("Songs To Learn 1.0 - by Peter Stone\n" + str(len(book_list)) + " songs loaded")
+    print("Reading Tracker 1.0 - by Peter Stone\n" + str(len(book_list)) + " books loaded")
     while menu_choice.upper() != 'Q':
         print("L - list books\nA - Add new book\nC - Complete a book\nQ - Quit")
         menu_choice = str(input())
